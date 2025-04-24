@@ -9,5 +9,4 @@ seaborn
 plotly
 wordcloud
 nltk
-iphyton
 reportlab
