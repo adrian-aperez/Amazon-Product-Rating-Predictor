@@ -11,4 +11,3 @@ wordcloud
 nltk
 iphyton
 reportlab
-ython
