@@ -15,8 +15,8 @@
 | ⭐​ Predictivo     | Predicción de calificaciones de productos de Amazon. |
 | 📊​ Analítico      | Análisis exploratorio con insights de negocio.       |
 | 📈​ Integración    | Integración con datos y características reales.      |
-​| 💻 Soporte        | Soporta múltiples modelos de ML y DL                 |
-| 🚀​ Aplicación     | Contiene aplicación visual en Streamlit              |
+| 💻 Soporte        | Soporta múltiples modelos de aprendizaje automático. |
+| 🚀​ Aplicación     | Contiene aplicación visual en Streamlit.             |
 
 
 
