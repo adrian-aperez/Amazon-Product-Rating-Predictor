@@ -2,8 +2,10 @@
 
 ## Descripción
 
-**Product Rating Predictor** es una aplicación diseñada para predecir las calificaciones de productos basándose en datos de productos de Amazon y las características del producto. Utiliza algoritmos de aprendizaje automático para generar predicciones precisas y confiables.
-(En este caso se elaboró con datos de productos de higiene masculina)
+**Product Rating Predictor** es una aplicación diseñada para predecir las calificaciones de productos basándose en datos de productos de Amazon y las características del producto (En este caso se elaboró con datos de productos de higiene masculina). 
+
+Utiliza algoritmos de aprendizaje automático para generar predicciones separados en dos modelos distintos. Modelo_bajo está entrenado con productos con menos de 60 reviews y Modelo_alto está entrenado con productos con más de 60 reviews.
+
 
 ## Resumen del Proyecto
 
@@ -12,15 +14,17 @@
 
 2.Análisis exploratorio de los datos (EDA).
 
-3.Elaboración de funciones y preprocesador como transformadores de los datos
+3.Feature Engineering:
 
-4.Utilización de TF-IDF (Term Frequency-Inverse Document Frequency) como herramienta de NLP para procesar texto.
+ 1.   Elaboración de funciones y preprocesador como transformadores de los datos.
 
-5.Utilización de algoritmos tanto de Machine Learning como de Deep Learning.
+ 2.   Utilización de TF-IDF (Term Frequency-Inverse Document Frequency) como herramienta de NLP para procesar texto.
 
-6. Hiperparametrización de los algoritmos escogidos y validación cruzada para optimización de los resultados.
+4.Utilización de algoritmos tanto de Machine Learning como de Deep Learning.
+
+5.Hiperparametrización de los algoritmos escogidos y validación cruzada para optimización de los resultados.
    
-7. Puesta en producción usando la herramienta Streamlit.
+6.Puesta en producción usando la herramienta Streamlit.
 
 
 
