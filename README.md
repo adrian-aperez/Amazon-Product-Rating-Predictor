@@ -69,3 +69,7 @@ Utiliza algoritmos de aprendizaje automático para generar predicciones separado
 
    python -m streamlit run App.py
 
+5. O en la app de Streamlit:
+
+   https://amazon-rating-predictor.streamlit.app/
+
