@@ -1,7 +1,7 @@
 # Product Rating Predictor
 
 
-![Screenshot](/assets/Screenshot.png) 
+![Screenshot](/assets/Screenshot2.png) 
 *Screenshot of the Streamlit interface*
 
 ![Demo GIF](https://i.imgur.com/5XbJQ2F.gif)  
