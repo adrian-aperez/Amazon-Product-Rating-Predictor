@@ -4,7 +4,7 @@
 ![Screenshot](/assets/Screenshot2.png) 
 *Screenshot of the Streamlit interface*
 
-![Demo GIF](https://i.imgur.com/5XbJQ2F.gif)  
+[▶️ Ver video demo](/assets/demo.mp4)
 
 [🔗 Live Demo](https://amazon-rating-predictor.streamlit.app/)
 
