@@ -1,10 +1,8 @@
 # Product Rating Predictor
 
+*Video of the Streamlit interface*
 
-![Screenshot](/assets/Screenshot2.png) 
-*Screenshot of the Streamlit interface*
-
-[▶️ Ver video demo](/assets/demo.mp4)
+![Demo GIF](/assets/demo.gif)
 
 [🔗 Live Demo](https://amazon-rating-predictor.streamlit.app/)
 
