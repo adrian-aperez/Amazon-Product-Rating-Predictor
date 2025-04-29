@@ -1,6 +1,5 @@
 # Product Rating Predictor
 
-
 ## Descripción
 
 **Product Rating Predictor** es una aplicación diseñada para predecir las calificaciones de productos basándose en datos de productos de Amazon y las características del producto. Utiliza algoritmos de aprendizaje automático para generar predicciones precisas y confiables.
@@ -18,6 +17,16 @@
 | 💻 Soporte        | Soporta múltiples modelos de aprendizaje automático. |
 | 🚀​ Aplicación     | Contiene aplicación visual en Streamlit.             |
 
+## Herramientas
+
+- Python        
+- Scikit-learn
+- Pandas        
+- Numpy
+- Joblib        
+- NLTK
+- Seaborn       
+- Matplotlib
 
 
 ## Instalación
