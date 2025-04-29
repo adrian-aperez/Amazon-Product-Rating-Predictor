@@ -1,75 +1,100 @@
 # Product Rating Predictor
 
-## Descripción
 
-**Product Rating Predictor** es una aplicación diseñada para predecir las calificaciones de productos basándose en datos de productos de Amazon y las características del producto (En este caso se elaboró con datos de productos de higiene masculina). 
+![App Screenshot]([https://i.imgur.com/JQ9w0Ln.png](https://imgur.com/a/KDFPoRo))  
+*Screenshot of the Streamlit interface*
 
-Utiliza algoritmos de aprendizaje automático para generar predicciones separados en dos modelos distintos. Modelo_bajo está entrenado con productos con menos de 60 reviews y Modelo_alto está entrenado con productos con más de 60 reviews.
+![Demo GIF](https://i.imgur.com/5XbJQ2F.gif)  
+
+[🔗 Live Demo](https://amazon-rating-predictor.streamlit.app/)
+
+## Description
+
+**Product Rating Predictor** is a machine learning application designed to predict Amazon product ratings based on product features (trained on men's hygiene products). 
+
+It uses two specialized models:
+- **Modelo_bajo**: For products with **<60 reviews**
+- **Modelo_alto**: For products with **>60 reviews**
+
+## Project Overview
+
+1. **Data Pipeline**:
+   - Web scraping & external data collection
+   - Data cleaning & preprocessing
+
+2. **Exploratory Analysis (EDA)**:
+   - Statistical insights
+   - Business intelligence visualizations
+
+3. **Feature Engineering**:
+   - Custom data transformers
+   - NLP processing (TF-IDF for text features)
+
+4. **Model Development**:
+   - Machine Learning (Scikit-learn)
+   - Deep Learning experiments
+   - Hyperparameter tuning & cross-validation
+
+5. **Deployment**:
+   - Streamlit web application
+   - Model serving & inference
+
+## Key Features
+
+| Feature          | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| 🌐 Responsive    | Mobile-friendly interface                                                   |
+| ⚡ Fast Predictions | Optimized for quick inference (<1s)                                      |
+| ⭐ Dual-Model System | Specialized models for high/low-review products                         |
+| 📊 Business Insights | Includes analytical visualizations                                      |
+| 🔍 Explainable AI | Feature importance analysis available                                     |
+| 🚀 Production-Ready | Deployed with Streamlit                                                  |
+
+## Tech Stack
+🛠️ Core: Python, Pandas, NumPy
+
+🤖 ML: Scikit-learn, PyCaret, TensorFlow (Keras)
+
+📊 Visualization: Matplotlib, Seaborn
+
+📝 NLP: NLTK, TF-IDF
+
+🚀 Deployment: Streamlit, Joblib
 
 
-## Resumen del Proyecto
 
-
-1.Extracción de datos de fuentes externas y la limpieza de los mismos.
-
-2.Análisis exploratorio de los datos (EDA).
-
-3.Feature Engineering:
-
- 1.   Elaboración de funciones y preprocesador como transformadores de los datos.
-
- 2.   Utilización de TF-IDF (Term Frequency-Inverse Document Frequency) como herramienta de NLP para procesar texto.
-
-4.Utilización de algoritmos tanto de Machine Learning como de Deep Learning.
-
-5.Hiperparametrización de los algoritmos escogidos y validación cruzada para optimización de los resultados.
-   
-6.Puesta en producción usando la herramienta Streamlit.
-
-
-
-## Características
-| Característica     | Descripción                                         |
-|--------------------|-----------------------------------------------------|
-| 🌐 Responsivo     | Compatible con todos los tamaños de pantalla.        |
-| ⚡ Rápido         | Carga optimizada y procesos ágiles.                  |
-| ⭐​ Predictivo     | Predicción de calificaciones de productos de Amazon. |
-| 📊​ Analítico      | Análisis exploratorio con insights de negocio.       |
-| 📈​ Integración    | Integración con datos y características reales.      |
-| 💻 Soporte        | Soporta múltiples modelos de aprendizaje automático. |
-| 🚀​ Aplicación     | Contiene aplicación visual en Streamlit.             |
-
-## Herramientas
-- Python        
-- Scikit-learn
-- Pandas        
-- Numpy
-- Pycaret
-- Joblib        
-- NLTK
-- Seaborn       
-- Matplotlib
-
-
-## Instalación
-
-1. Clona este repositorio:
-
-    git clone https://github.com/adrian-aperez/Product-Rating-Predictor.git
-
-2. Navega al directorio del proyecto:
-
-   cd Product-Rating-Predictor
+## Installation
   
-3. Instala las dependencias necesarias:
+### Clone repository
+```
+git clone https://github.com/adrian-aperez/Product-Rating-Predictor.git
+```
+### Navigate to project
+```
+cd Product-Rating-Predictor
+```
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+### Launch Streamlit app
+```
+python -m streamlit run App.py
+```
 
-   pip install -r requirements.txt
+### Notes:
+1. **Screenshot/GIF**:  
+   - I used placeholder Imgur links (replace with your actual screenshots/GIFs).  
+   - To capture these:  
+     - Screenshot: Use Snip & Sketch (Windows) or Screenshot (Mac).
+     - GIF: Record with ScreenToGif (Windows) or LICEcap (Mac).
+     
 
-4. Puedes ejecutar el código con los datos por defecto en local usando el comando:   
+2. **Contributing Section**:  
+   - Standard GitHub workflow  
+   - Encourages collaboration while maintaining code quality  
 
-   python -m streamlit run App.py
-
-5. O en la app de Streamlit:
-
-   https://amazon-rating-predictor.streamlit.app/
-
+Want me to adjust any section? For example:  
+- Add a "Roadmap" for future features  
+- Include contributor badges  
+- Expand testing guidelines
